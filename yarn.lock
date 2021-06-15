@@ -5907,7 +5907,7 @@ sql-formatter@2.3.4:
   dependencies:
     lodash "^4.17.20"
 
-sql-template-strings@2.2.2, sql-template-strings@^2.2.2:
+sql-template-strings@2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/sql-template-strings/-/sql-template-strings-2.2.2.tgz#3f11508a25addfce217a3042a9d300c3193b96ff"
   integrity sha1-PxFQiiWt384hejBCqdMAwxk7lv8=
@@ -5929,14 +5929,10 @@ sqlite3@^4.0.0:
     node-pre-gyp "^0.10.3"
     request "^2.87.0"
 
-sqlite@3.0.6:
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/sqlite/-/sqlite-3.0.6.tgz#82d15bb45a1ca2a7ac8f7a1079f19dc9abe2ee75"
-  integrity sha512-5SW7HcN+s3TyqpsxOujXhQDCRSCgsxdiU0peT/Y9CT5T0rAsGLwtpXcMyQ7OzOPQ4YUZ5XiGlrwuuQbszr2xtw==
-  dependencies:
-    sqlite3 "^4.0.0"
-  optionalDependencies:
-    sql-template-strings "^2.2.2"
+sqlite@4.0.23:
+  version "4.0.23"
+  resolved "https://registry.yarnpkg.com/sqlite/-/sqlite-4.0.23.tgz#ada09028b38e91883db08ac465d841e814d1bb00"
+  integrity sha512-dSdmSkrdIhUL7xP/fiEMfFuAo4dxb0afag3rK8T4Y9lYxE3g3fXT0J8H9qSFvmcKxnM0zEA8yvLbpdWQ8mom3g==
 
 sqlstring@2.3.1, sqlstring@^2.3.1:
   version "2.3.1"
